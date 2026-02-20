@@ -1,0 +1,59 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.eggs
+pip-wheel-metadata/
+build/
+dist/
+wheels/
+
+# Environment and configuration
+.env
+credentials.json
+proxies.txt  # If it contains sensitive proxy info
+proxies.txt
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Downloads and caches
+downloads/
+chrome_profile_*/
+chrome_profile_mpstats*/
+chrome_profile_ozon*/
+chrome_profile_wb*/
+*.csv  # Temporary CSV exports from MPStats
+*.xlsx  # Temporary Excel files
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+*.DS_Store
+ehthumbs.db
+Icon?
+
+# Virtual environments
+venv/
+env/
+.venv/
+pyvenv.cfg
+
+# Sensitive or local files
+parser.log
+requirements-dev.txt  # If you have dev dependencies
+*.csv
+*.xlsx
