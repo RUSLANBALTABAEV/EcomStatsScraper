@@ -1,4 +1,4 @@
-# zakaz2 — Парсер маркетплейсов
+# EcomStatsScraper — Парсер маркетплейсов
 
 Автоматизированный инструмент для сбора данных с **Wildberries**, **Ozon** и **MPStats** с записью результатов в **Google Sheets**.
 
@@ -20,7 +20,7 @@
 ## Структура проекта
 
 ```
-zakaz2/
+EcomStatsScraper/
 ├── main.py              # Точка входа — запуск всех парсеров
 ├── wb.py                # Парсер Wildberries
 ├── ozon.py              # Парсер Ozon
